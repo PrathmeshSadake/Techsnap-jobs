@@ -1,3 +1,54 @@
 body {
   font-family: "Montserrat", sans-serif;
 }
+
+.jobs__heading {
+  font-weight: 700;
+  font-size: 4rem;
+}
+.jobs__desc {
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+.apply-now-button {
+  text-decoration: none;
+  letter-spacing: 1px;
+  color: #ff00d6;
+  font-weight: 400;
+  font-size: 1.25rem;
+}
+
+@media only screen and (max-width: 700px) {
+  .jobs__heading {
+    font-weight: 600 !important;
+    font-size: 2rem !important;
+    text-align: center;
+  }
+  .jobs__desc {
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: center;
+  }
+  .apply-now-button {
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: #ff00d6;
+    font-weight: 400;
+    font-size: 1rem;
+  }
+  .jobs__hero-img {
+    float: right;
+    width: 100%;
+    margin-top: 2rem;
+  }
+}
+
+@media only screen and (min-width: 701px) {
+  .apply-now-button {
+    align-self: flex-start;
+  }
+  .jobs__hero-img {
+    float: right;
+    width: 80%;
+  }
+} ;
