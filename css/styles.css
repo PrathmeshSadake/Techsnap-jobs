@@ -58,8 +58,4 @@ body {
   .apply-now-button {
     align-self: flex-start;
   }
-  .jobs__hero-img {
-    float: right;
-    width: 80%;
-  }
 } ;
