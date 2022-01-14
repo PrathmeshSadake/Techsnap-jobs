@@ -13,7 +13,7 @@ body {
 }
 .apply-now-button {
   text-decoration: none;
-  letter-spacing: 1px;
+  letter-spacing: 0.75px;
   color: #ff00d6;
   font-weight: 400;
   font-size: 1.25rem;
@@ -36,9 +36,9 @@ body {
     text-align: center;
   }
   .jobs__page-heading {
-    font-weight: 400;
+    font-weight: 500;
     font-size: 1.75rem;
-    margin: 1.5rem auto;
+    margin-top: 2.5rem ;
   }
   .apply-now-button {
     text-decoration: none;
