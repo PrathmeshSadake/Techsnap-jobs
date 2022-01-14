@@ -38,7 +38,7 @@ body {
   .jobs__page-heading {
     font-weight: 500;
     font-size: 1.75rem;
-    margin-top: 2.5rem ;
+    margin-top: 2.5rem;
   }
   .apply-now-button {
     text-decoration: none;
@@ -51,6 +51,10 @@ body {
     float: right;
     width: 100%;
     margin-top: 2rem;
+  }
+  .g-5,
+  .gx-5 {
+    --bs-gutter-x: 0 !important;
   }
 }
 
